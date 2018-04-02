@@ -4,6 +4,7 @@
         "module": "commonjs",
         "target": "es5",
         "outDir": "ts-built",
-        "rootDir": "src",
+        "typeRoots": ["./helpers"],
+        "rootDir": "src"
     }
 }

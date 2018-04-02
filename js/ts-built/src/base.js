@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+require("./helpers");
 var author = /** @class */ (function () {
     function author(id, name, dob, dod) {
         this.id = id;
